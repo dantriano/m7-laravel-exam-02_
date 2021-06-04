@@ -50,6 +50,7 @@ No es necesario hacer una tabla en la base de datos, pero la referencia numerica
 En la pagina principal se pueden aplicar filtros para reducir la lista de peliculas.
  - Filtrar por genero: Muestra las peliculas cuya categoria coincide con el botón de **Genero** pulsado por el usuario
  - Filtrar por titulo: Con el campo de texto se puede buscar una pelicula por su nombre. IMPORTANTE! Si antes el usuario ha buscado un genero, la busqueda del titulo seré sobre el genero actual.
+ ![Filtros de busqueda](https://github.com/dantriano/m7-laravel-exam-02/blob/main/public/img/screen04.png)
 
 
 ## Proceso de compra

@@ -50,11 +50,10 @@ class Handler extends ExceptionHandler
      */
     public function render($request, Throwable $exception)
     {
-        if ($exception instanceof HttpNotFoundException) {
-            return view('errores.error404');
-        } else if ($exception instanceof QueryException) {
-            return view('errores.dbAccess');
-        }
+        //TODO: HTTP NOT FOUND EXCEPTION
+
+        //TODO: DATABASE EXCEPTION 
+        
         return parent::render($request, $exception);
     }
 }
