@@ -8,6 +8,8 @@ Utiliza Docker para cargar todo el proyecto empezar a funcionar
 
 ## Alquiler de peliculas
 
+![Pagina Principal](https://github.com/dantriano/m7-laravel-exam-02/blob/main/public/img/screen01.jpg)
+
 - Queremos crear un sistema de alquiler de peliculas
 - Las peliculas se pueden alquilar o comprar
 - Solo puedes alquilar/comprar 3 peliculas en una misma operación de compra
