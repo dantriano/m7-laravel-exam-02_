@@ -51,8 +51,6 @@ En la pagina principal se pueden aplicar filtros para reducir la lista de pelicu
  - Filtrar por genero: Muestra las peliculas cuya categoria coincide con el botón de **Genero** pulsado por el usuario
  - Filtrar por titulo: Con el campo de texto se puede buscar una pelicula por su nombre. IMPORTANTE! Si antes el usuario ha buscado un genero, la busqueda del titulo seré sobre el genero actual.
 
- ![Filtros por categorias y search](https://github.com/dantriano/m7-laravel-exam-02/blob/main/public/img/screen02.png)
-
 
 ## Proceso de compra
 
@@ -63,10 +61,13 @@ En la pagina principal se pueden aplicar filtros para reducir la lista de pelicu
 - Los elementos del carrito se guardan en **session**
 - Una vez haces click en **finalizar compra** se inicia el siguiente proceso:
 
- ![Formularios de compra](https://github.com/dantriano/m7-laravel-exam-02/blob/main/public/img/screen03.png)
 
 1. Resumen: Donde se visualiza el lista de los productos junto con el precio final. Debe aparecer si se alquila o se compra.
+ ![Resumen de compra/alquiler](https://github.com/dantriano/m7-laravel-exam-02/blob/main/public/img/screen02.png)
+
 2. Formulario de Envio: Los datos de Nombre y email proceden del usuario a traves de la base de datos. La ID del usuario esta siempre en sessión. El formulario debe comprobar que el usuario introduce **todos** los campos
+ ![Formularios de compra](https://github.com/dantriano/m7-laravel-exam-02/blob/main/public/img/screen03.png)
+
 3. Confirmar compra. Se visualiza un resumen final de la compra con los datos de envio para confirmar el proceso
 
 ## Guarda estado de compra
